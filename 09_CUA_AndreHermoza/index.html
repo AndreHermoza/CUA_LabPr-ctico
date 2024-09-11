@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca del Saber</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/09_CUA_AndreHermoza/style.css">
 </head>
 
 <header>
@@ -16,124 +16,143 @@
 
 <body>
 
-    <div="generos">
+    <div id="Ficción">
         <section="Acción">
             <h2>Acción</h2>
             <p>La ficción es uno de los géneros literarios más populares en todo el mundo. Desde novelas clásicas hasta
-                obras contemporáneas, este género ofrece a los lectores la oportunidad de sumergirse en mundos
-                imaginarios, explorar narrativas envolventes y conectarse con personajes únicos. Ya sea fantasía,
-                ciencia ficción, o realismo mágico, la ficción invita a los lectores a escapar de la realidad por un
-                momento y disfrutar de historias llenas de emociones y aventuras.</p>
-            <img src="/img/reinaroja.png" alt="La reina roja">
+                obras contemporáneas, <strong>este género ofrece a los lectores la oportunidad de sumergirse en mundos
+                    imaginarios, explorar narrativas envolventes y conectarse con personajes únicos.</strong> Ya sea
+                <em>fantasía,
+                    ciencia ficción, o realismo mágico, la ficción invita a los lectores a escapar de la realidad por un
+                    momento y disfrutar de historias llenas de emociones y aventuras.</em> </p>
+            <img src="/09_CUA_AndreHermoza/img/reinaroja.png" alt="La reina roja">
             </section>
 
-            <section "No-ficcion">
+            <section id="No-ficcion">
                 <h2>No ficción</h2>
-                <P>La no ficción es un género elegante y majestuoso que se enfoca en hechos reales y eventos históricos.
+                <P>La no ficción es un <strong>género elegante y majestuoso</strong> que se enfoca en hechos reales y
+                    eventos históricos.
                     Los libros de no ficción ofrecen una visión profunda de diversos temas como la historia, la ciencia,
                     la política, y la filosofía, proporcionando a los lectores conocimientos valiosos y puntos de vista
-                    informados. Este género es una excelente opción para aquellos que buscan aprender y ampliar su
-                    comprensión del mundo que los rodea.</P>
-                <img src="/img/noficcion.png" alt="No ficción">
+                    informados. Este género es una excelente opción para aquellos que <em>buscan aprender y ampliar su
+                        comprensión del mundo que los rodea.</em></P>
+                <img src="/09_CUA_AndreHermoza/img/noficcion.png" alt="No ficción">
 
-                <section "autoayuda">
+                <section id="Autoayuda">
                     <h2>Autoayuda </h2>
                     <P>Los libros de autoayuda están diseñados para inspirar y empoderar a los lectores. Este género
                         ofrece consejos prácticos para mejorar varios aspectos de la vida personal, desde las relaciones
                         hasta el bienestar emocional y la productividad. Estos libros son una fuente de amor y
                         felicidad, ya que invitan a los lectores a reflexionar sobre su crecimiento personal y les
                         brindan herramientas para superar desafíos y alcanzar sus metas.</P>
-                    <img src="/img/autoayuda.png" alt="La lección de August">
+                    <img src="/09_CUA_AndreHermoza/img/autoayuda.png" alt="La lección de August">
 
 
 
                 </section>
-                </div>
+    </div>
 
-                <div>
+    <div id="formulario">
 
-                    <section "formulario">
-                        <form action="">
-                            <label for="user">
-                                <input type="text" name="Nombres">
-                            </label>
-                            <label for="fecha">
-                                <input type="date" name="Fecha">
-                                <input type="submit">
-                            </label>
-                        </form>
-                    </section>
-                </div>
+        <section "formulario">
+            <form action="">
+                <label for="user">
+                    <input type="text" name="Nombres" id="Nombres">
+                </label>
+                <label for="fecha">
+                    <input type="date" name="Fecha">
+                </label>
+            </form>
+        </section>
+    
 
-                <h1>Libros por Categoría</h1>
-                <a href="https://www.crisol.com.pe/" target="_blank">Para conocet más acerca del mundo de los libros
-                    ingrese aquí</a>
+    <h1>Libros por Categoría</h1>
+    <a href="https://www.crisol.com.pe/" target="_blank">Para conocet más acerca del mundo de los libros
+        ingrese aquí</a>
 
-                <div>
-                    <label for="Lista">
-                        <select name="Lista">
-                            <option value="ficción">Cien años de soledad</option>
-                            <option value="ficción">El señor de los anillos</option>
-                            <option value="ficción">1984, de George Orwell</option>
-                            <option value="ficción">Un mundo feliz</option>
-                            <option value="ficción">Crimen y castigo</option>
-                        </select>
-                    </label>
+    <div>
 
-                    <label for="Lista">
-                        <select name="Lista">
-                            <option value="No-ficcion">Cien años de soledad </option>
-                            <option value="No-ficcion">El señor de los anillos</option>
-                            <option value="No-ficcion">1984, de George Orwell</option>
-                            <option value="No-ficcion">Un mundo feliz</option>
-                            <option value="No-ficcion">Crimen y castigo</option>
-                        </select>
-                    </label>
+        <input list="Libros">
+        <datalist id="Libros">
+            <option value="Ficción">Cien años de soledad </option>
+            <option value="Ficción">El señor de los anillos</option>
+            <option value="Ficción">1984, de George Orwell</option>
+            <option value="Ficción">Un mundo feliz</option>
+            <option value="Ficción">Crimen y castigo</option>
 
-                    <label for="Lista">
-                        <select name="Autoayuda">
-                            <option value="Autoayuda">Cien años de soledad</option>
-                            <option value="Autoayuda">El señor de los anillos</option>
-                            <option value="Autoayuda">1984, de George Orwell</option>
-                            <option value="Autoayuda">Un mundo feliz</option>
-                            <option value="Autoayuda">Crimen y castigo</option>
-                        </select>
-                    </label>
-                </div>
-                <div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/A4EMgAttpqg?si=8m4Yj2hL9n3eW45E"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+        </datalist>
+
+
+
+        <input list="Libros">
+        <datalist id="Libros">
+            <option value="No-Ficción">Cien años de soledad </option>
+            <option value="No-Ficción">El señor de los anillos</option>
+            <option value="No-Ficción">1984, de George Orwell</option>
+            <option value="No-Ficción">Un mundo feliz</option>
+            <option value="No-Ficción">Crimen y castigo</option>
+
+        </datalist>
+
+        <input list="Libros">
+        <datalist id="Libros">
+            <option value="Autoayuda">Cien años de soledad </option>
+            <option value="Autoayuda">El señor de los anillos</option>
+            <option value="Autoayuda">1984, de George Orwell</option>
+            <option value="Autoayuda">Crimen y castigo</option>
+            <option value="Autoayuda">Un mundo feliz</option>
+
+        </datalist>
+        <input type="submit">
+    </div>
+</div>
+
+
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/A4EMgAttpqg?si=8m4Yj2hL9n3eW45E"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
 
 </body>
 
 <footer>
     <h1>Horarios</h1>
-    <table>
-
-        <thead>
-            <tr>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miercoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
-                <th>Sabado</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <td>8:00 am - 3:00 pm</td>
-            <td>8:00 am - 3:00 pm</td>
-            <td>8:00 am - 3:00 pm</td>
-            <td>8:00 am - 3:00 pm</td>
-            <td>8:00 am - 3:00 pm</td>
-            <td>8:00 am - 12:00 pm</td>
-            <td>cerrado</td>
-        </tbody>
+    <table class="horarios">
+        <tr>
+            <th>Día</th>
+            <th>Horario</th>
+        </tr>
+        <tr>
+            <td>Lunes</td>
+            <td>8:00 AM - 3:00 PM</td>
+        </tr>
+        <tr>
+            <td>Martes</td>
+            <td>8:00 AM - 3:00 PM</td>
+        </tr>
+        <tr>
+            <td>Miércoles</td>
+            <td>8:00 AM - 3:00 PM</td>
+        </tr>
+        <tr>
+            <td>Jueves</td>
+            <td>8:00 AM - 3:00 PM</td>
+        </tr>
+        <tr>
+            <td>Viernes</td>
+            <td>8:00 AM - 3:00 PM</td>
+        </tr>
+        <tr>
+            <td>Sábado</td>
+            <td>8:00 AM - 12:00 PM</td>
+        </tr>
+        <tr>
+            <td>Domingo</td>
+            <td>Cerrado</td>
+        </tr>
     </table>
     <p>© 2023 CUA. Todos los derechos reservados.</p>
 

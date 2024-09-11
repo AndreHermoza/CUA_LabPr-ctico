@@ -1,14 +1,83 @@
-body{
-    background-color:azure;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:bisque;
+    
 }
 
-img{
-    width:  500px;
-    height: 500px;
-    align-content: center;
+p {
+    padding: 0 20px;
+    line-height: 1.6;
 }
 
-h1{
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  margin: 0 auto;
+  width: 400px;
+
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
     text-align: center;
 }
+#Ficción, #No-Ficcion, #Autoayuda{
+    padding: 50px;
+    padding-top: 50px;
+    align-items: center;
+}
 
+#formulario {
+    margin: 20px auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.horarios{
+    padding: 20px;
+    padding-left: 50px;
+    align-items: flex-end;
+    padding: 10px auto;
+    
+}
+
+
+
+footer p {
+    margin: 10px 0;
+}
